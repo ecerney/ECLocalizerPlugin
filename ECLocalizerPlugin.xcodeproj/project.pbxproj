@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021A1EA618EB52F8007C9F70 /* ImportExcelFile.py in Resources */ = {isa = PBXBuildFile; fileRef = 021A1EA518EB52F8007C9F70 /* ImportExcelFile.py */; };
+		02AD023118E9F1D00068804D /* libpython2.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AD023018E9F1D00068804D /* libpython2.7.dylib */; };
+		02AD023318E9F1E60068804D /* GenerateCombinedFiles.py in Resources */ = {isa = PBXBuildFile; fileRef = 02AD023218E9F1E60068804D /* GenerateCombinedFiles.py */; };
+		02E7FA7318E625BD00043611 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E7FA7218E625BD00043611 /* AppKit.framework */; };
+		02E7FA7518E625BD00043611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E7FA7418E625BD00043611 /* Foundation.framework */; };
+		02E7FA7B18E625BD00043611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02E7FA7918E625BD00043611 /* InfoPlist.strings */; };
+		02E7FA7E18E625BD00043611 /* ECLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7FA7D18E625BD00043611 /* ECLocalizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021A1EA518EB52F8007C9F70 /* ImportExcelFile.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ImportExcelFile.py; sourceTree = "<group>"; };
+		02AD023018E9F1D00068804D /* libpython2.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpython2.7.dylib; path = ../../../../../../System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config/libpython2.7.dylib; sourceTree = "<group>"; };
+		02AD023218E9F1E60068804D /* GenerateCombinedFiles.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = GenerateCombinedFiles.py; sourceTree = "<group>"; };
+		02E7FA6F18E625BD00043611 /* ECLocalizerPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECLocalizerPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E7FA7218E625BD00043611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		02E7FA7418E625BD00043611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02E7FA7818E625BD00043611 /* ECLocalizerPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECLocalizerPlugin-Info.plist"; sourceTree = "<group>"; };
+		02E7FA7A18E625BD00043611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02E7FA7C18E625BD00043611 /* ECLocalizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECLocalizer.h; sourceTree = "<group>"; };
+		02E7FA7D18E625BD00043611 /* ECLocalizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECLocalizer.m; sourceTree = "<group>"; };
+		02E7FA7F18E625BD00043611 /* ECLocalizerPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECLocalizerPlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E7FA6C18E625BD00043611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7FA7318E625BD00043611 /* AppKit.framework in Frameworks */,
+				02AD023118E9F1D00068804D /* libpython2.7.dylib in Frameworks */,
+				02E7FA7518E625BD00043611 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E7FA6618E625BD00043611 = {
+			isa = PBXGroup;
+			children = (
+				02E7FA7618E625BD00043611 /* ECLocalizer */,
+				02E7FA7118E625BD00043611 /* Frameworks */,
+				02E7FA7018E625BD00043611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E7FA7018E625BD00043611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E7FA6F18E625BD00043611 /* ECLocalizerPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E7FA7118E625BD00043611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02E7FA7218E625BD00043611 /* AppKit.framework */,
+				02E7FA7418E625BD00043611 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02E7FA7618E625BD00043611 /* ECLocalizer */ = {
+			isa = PBXGroup;
+			children = (
+				02E7FA7C18E625BD00043611 /* ECLocalizer.h */,
+				02E7FA7D18E625BD00043611 /* ECLocalizer.m */,
+				02AD023218E9F1E60068804D /* GenerateCombinedFiles.py */,
+				021A1EA518EB52F8007C9F70 /* ImportExcelFile.py */,
+				02AD023018E9F1D00068804D /* libpython2.7.dylib */,
+				02E7FA7718E625BD00043611 /* Supporting Files */,
+			);
+			path = ECLocalizer;
+			sourceTree = "<group>";
+		};
+		02E7FA7718E625BD00043611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E7FA7818E625BD00043611 /* ECLocalizerPlugin-Info.plist */,
+				02E7FA7918E625BD00043611 /* InfoPlist.strings */,
+				02E7FA7F18E625BD00043611 /* ECLocalizerPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E7FA6E18E625BD00043611 /* ECLocalizerPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E7FA8218E625BD00043611 /* Build configuration list for PBXNativeTarget "ECLocalizerPlugin" */;
+			buildPhases = (
+				02E7FA6B18E625BD00043611 /* Sources */,
+				02E7FA6C18E625BD00043611 /* Frameworks */,
+				02E7FA6D18E625BD00043611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECLocalizerPlugin;
+			productName = ECLocalizer;
+			productReference = 02E7FA6F18E625BD00043611 /* ECLocalizerPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E7FA6718E625BD00043611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Eric Cerney";
+			};
+			buildConfigurationList = 02E7FA6A18E625BD00043611 /* Build configuration list for PBXProject "ECLocalizerPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02E7FA6618E625BD00043611;
+			productRefGroup = 02E7FA7018E625BD00043611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E7FA6E18E625BD00043611 /* ECLocalizerPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E7FA6D18E625BD00043611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AD023318E9F1E60068804D /* GenerateCombinedFiles.py in Resources */,
+				02E7FA7B18E625BD00043611 /* InfoPlist.strings in Resources */,
+				021A1EA618EB52F8007C9F70 /* ImportExcelFile.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E7FA6B18E625BD00043611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E7FA7E18E625BD00043611 /* ECLocalizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02E7FA7918E625BD00043611 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E7FA7A18E625BD00043611 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E7FA8018E625BD00043611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		02E7FA8118E625BD00043611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		02E7FA8318E625BD00043611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECLocalizer/ECLocalizerPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				INFOPLIST_FILE = "ECLocalizer/ECLocalizerPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				PRODUCT_NAME = ECLocalizerPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		02E7FA8418E625BD00043611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECLocalizer/ECLocalizerPlugin-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7,
+				);
+				INFOPLIST_FILE = "ECLocalizer/ECLocalizerPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config",
+				);
+				PRODUCT_NAME = ECLocalizerPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E7FA6A18E625BD00043611 /* Build configuration list for PBXProject "ECLocalizerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7FA8018E625BD00043611 /* Debug */,
+				02E7FA8118E625BD00043611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E7FA8218E625BD00043611 /* Build configuration list for PBXNativeTarget "ECLocalizerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E7FA8318E625BD00043611 /* Debug */,
+				02E7FA8418E625BD00043611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E7FA6718E625BD00043611 /* Project object */;
+}
